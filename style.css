@@ -1,0 +1,17 @@
+.discount-right{
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    min-height: 100px;
+    line-height: 100px;
+}
+
+.vaqt {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px black;
+    color: white;
+    font-weight: 600;
+    font-size: 15;
+}
